@@ -2,9 +2,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation, useNavigate } from
 import './App.css';
 
 // Componentes 
-import GraficoFaturamento from './componentes/GraficoFaturamento';
-import GraficoQuantidade from './componentes/GraficoQuantidade';
-import GraficoTicket from './componentes/GraficoTicket';
 import Tabelas from './componentes/Tabelas';
 import Graficos from './componentes/Graficos';
 
