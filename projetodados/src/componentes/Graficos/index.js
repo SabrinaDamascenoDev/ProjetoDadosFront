@@ -1,9 +1,12 @@
+import GraficoFaturamento from "../GraficoFaturamento"
 import Menu from "../Menu"
 
 const Graficos = () => {
     return(
-        <div>
+        <div className="container">
             <Menu />
+
+            <GraficoFaturamento />
         </div>
     )
 }
