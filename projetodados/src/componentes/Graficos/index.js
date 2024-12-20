@@ -1,4 +1,5 @@
 import GraficoFaturamento from "../GraficoFaturamento"
+import GraficoQuantidade from "../GraficoQuantidade"
 import Menu from "../Menu"
 
 const Graficos = () => {
@@ -7,6 +8,8 @@ const Graficos = () => {
             <Menu />
 
             <GraficoFaturamento />
+
+            <GraficoQuantidade />
         </div>
     )
 }
